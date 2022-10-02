@@ -128,6 +128,15 @@ body {
     color: var(--logo-color-footer);
 }
 
+.button:hover,
+.button:focus {
+    background: var(--logo-color);
+    box-shadow: 0px 4px 4px var(--box-shadow-button);
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+}
+
 .chapter {
     font-weight: 700;
     line-height: 1.14;
@@ -272,5 +281,4 @@ body {
 
 .container {
     background: var(--logo-color-footer);
-    border: 1px solid var(--border-container-color);
 }
